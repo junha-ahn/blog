@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `바른자세 블로그`,
+    title: `Devkly`,
     author: {
-      name: `Jun`,
+      name: `바른자세`,
       summary: `who lives and works in South Korea.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
