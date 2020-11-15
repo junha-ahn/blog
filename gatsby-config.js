@@ -6,9 +6,8 @@ module.exports = {
       summary: `who lives and works in South Korea.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
-    social: {
-    },
+    siteUrl: `https://devkly.netlify.app`,
+    social: {},
   },
   plugins: [
     {
@@ -72,5 +71,14 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    "gatsby-plugin-sitemap",
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://delivan.dev",
+        sitemap: "https://delivan.dev/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
   ],
 }
