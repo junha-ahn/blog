@@ -72,7 +72,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           name: `google-site-verification`,
-          content: `ibdQqddBvHT-4J8VJ-RNbAE63SYHMKkbf4it-fUVeU0`,
+          content: `JGgjzPo2FLYvOWD5O2HTNYCUeeiwop-MHrL7J0FFqMk`,
         },
       ].concat(meta)}
     />
