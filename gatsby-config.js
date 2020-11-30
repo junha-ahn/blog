@@ -5,7 +5,7 @@ module.exports = {
       name: `바른자세`,
       summary: `who lives and works in South Korea.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `거창한 목표 없이 시작해보는 블로그`,
     siteUrl: `https://devkly.netlify.app`,
     social: {},
   },
